@@ -12,4 +12,4 @@ To split the provided videos into individual frames, the script `split_video_in_
   ```bash
   python split_video_in_frames.py 01
   ```
-* A new folder named `Frames` will be created. Inside this folder, a subfolder for the individual video will be created, containing the frames of the video with frame numbers padded to six digits and grouped in folders of 1,000.
+* A new folder named `Frames` will be generated, containing a subfolder for the individual video. The video frames are stored with six-digit padded numbers and grouped in folders of 1,000.
