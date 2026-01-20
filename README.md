@@ -1,6 +1,6 @@
 # PhaKIR_Dataset
 
-This repository provides code files for processing the PhaKIR dataset. 
+This repository provides code for pre-processing the PhaKIR dataset. 
 
 To split the provided videos into individual frames, the script `split_video_in_frames.py` can be used. This will reproduce the same folder structure that was used during the PhaKIR challenge: frames are grouped in folders of 1,000 and all frame numbers are padded to six digits. Detailed instructions are as follows:
 
