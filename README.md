@@ -6,7 +6,7 @@ To split the provided videos into individual frames, the script `split_video_in_
 
 ## Instructions for Frame Extraction
 
-* Place the script in the same folder as the video files.
+* Place the script `split_video_in_frames.py` in the same folder as the video files.
 * Run the script with the video number to split it into frames. For example, to process video 01, use the following command:
 
   ```bash
