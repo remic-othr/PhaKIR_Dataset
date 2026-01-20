@@ -14,4 +14,4 @@ To split the provided videos into individual frames, the script `split_video_in_
   ```
 * A new folder named `Frames` will be generated, containing a subfolder for the individual video. The video frames are stored with six-digit padded numbers to ensure consistency with the segmentation mask filenames and grouped in folders of 1,000 for improved accessibility.
 
-> **Note:** The default compression level for the resulting `.png` frames is set to `3`, which is the default of the `cv2.imwrite` function. Depending on available storage and specific requirements, this value (in line 49) can be adjusted between `0` (no compression, fastest access) and `9` (maximum compression, slowest access).
+**Note:** The default compression level for the resulting `.png` frames is set to `3`, which is the default of the `cv2.imwrite` function. Depending on available storage and specific requirements, this value (in line 49) can be adjusted between `0` (no compression, fastest access) and `9` (maximum compression, slowest access).
